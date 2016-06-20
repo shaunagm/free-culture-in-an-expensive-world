@@ -73,3 +73,95 @@ For bugs considered release-critical (as in, there's a serious problem with it s
 For maintainers that are mostly or completely unresponsive, the Debian QA MIA team handles it. The process involves some steps over a period of months and will eventually result in a takeover of that maintainer's packages and finally the removal of their credentials from the project. 
 
 _Thanks for taking the time to answer my questions, Ari._
+
+#### Interview with Carol Willing, 6/13/2016; topics covered: OpenHatch, Jupyter, Linux
+
+__Disclaimer: This interview contains the personal opinions of the interviewee.  They are not speaking on behalf of any of their employer or any of the organizations mentioned within.__
+
+_Hi Carol!  Thanks for agreeing to be interviewed.  Can you start us off by talking about your history with open source communities - which ones you've participated in, and which ones you're working with now?_
+
+Hi Shauna. My history with open source communities goes back to Linux in the 1990s. At the time I wanted to contribute to the project but found the process to contribute somewhat mysterious and not well documented.
+
+I've participated with Open Hardware, like Arduino, Raspberry PI and the micro:bit. I also over the years worked on OpenHatch, Requests, PyLadies, CPython, Cookiecutter, IPython, Jupyter as well as some other Python projects. Currently, I work full time as a core developer on Jupyter. In my spare time, I work on Cookiecutter, PyLadies, OpenHatch, Software Carpentry, and CPython.
+
+_Have you been paid to work on any open source projects other than Jupyter, or have the rest all been as a volunteer?_
+
+Other than Jupyter, all the other contributions have been done as an unpaid volunteer.
+
+_Can you talk a bit about how this volunteer work has fit into your life?  Have you ever struggled to make time for it, or felt like you were getting burned out?_
+
+Good question. I have been very involved in Education non-profits over the years. Contributing to open source has its roots in my interests in making educational materials more accessible for others. There have certainly been times where other priorities in my life (family, illness, travel, etc.) have made it difficult to contribute to open source. I have found myself getting burned out from time to time. Usually the catalysts for burnout for me are hostile or aggressive messages or comments, demands by a community member for a change or fix, and underappreciation for the work that I provide in my spare time.
+
+_Are there projects you've volunteered with that you think handle those burnout-catalysts particularly well?  If so, what did they do/how did they approach the problem?_
+
+A few projects come to mind. OpenHatch, Requests, Cookiecutter, and PyLadies are all projects that have been flexible about my needs as a contributor and were supportive if I needed to take a break from contributing. One of the things that Requests did particularly well was allow me to pair and work with one of the maintainers. Since I was pairing, there was less pressure to have the project's expectations only on my shoulders. I was able to step in and out as time and energy permitted.
+
+_I'm glad to hear that OpenHatch is/was a supportive environment for you.  Some context for readers: I (Shauna, the interviewer) was a paid contractor for OpenHatch for about two and a half years.  For a year and a half of that, I was the only person being paid to work on the project.  I definitely felt some discomfort on my end, that I was being paid to do work that sometimes bled into the volunteer work that others were doing.  Has the fact that some of your collaborators were being paid ever influenced your experiences as a volunteer?_
+
+I think that paid collaborators have both positively and negatively influenced my experiences as a volunteer. For OpenHatch, a paid collaborator, Shauna, added so much structure and community positivity that the project flourished under her leadership. The same level of activity and contribution at OpenHatch was negatively impacted on Shauna's departure.
+
+Jupyter/IPython also had a positive impact when I worked on the project before being hired to work on it full time. The paid contributors had a genuine interest in seeing the research project be successful and made a concerted effort to have contributors be successful.
+
+As for CPython, there have been times where I have felt that others were advocating more from the position of their employer than the best interests of the language. Overall, it hasn't been a frequent occurance or really impacted my experience as a volunteer.
+
+After spending time observing the Linux contribution process and going to Linux conferences, I chose not to contribute because the project put corporate interests before individual contributors. The project tolerated aggressive and hostile comments and posts. The corporations that were funding both the development work and the Linux Foundation showed weak interest in acting on behalf of the greater community and condoned the unprofessional behavior and comments.
+
+_OpenHatch is a non-profit with mostly volunteer contributors.  I know that the vast majority of Linux contributors are corporate employees.  Can you talk a bit about the structure of Jupyter and CPython?  Where does the funding come from, and (roughly) what percentage of contributors are volunteer vs paid?_
+
+Jupyter is structured as an open community that has its roots in building consensus on decisions and decision making is sometimes made by the Steering Council when consensus can not be reached. Overall, the discussions are very civil and professional. The bulk of Jupyter's funding comes from generous foundations, like the Helmsley Charitable Trust, the Alfred P. Sloan Foundation, and the Gordon and Betty Moore Foundation. These foundations recognize the impact that Jupyter has in furthering scientific research and data science and fund the Jupyter project to further important real world solutions to complex, cross-discipline problems. There are many unpaid volunteers on the project; there is also a small number less than a dozen academic individuals employed to contribute to the project which helps give the project sustainability and direction.
+
+As for CPython, it is largely a volunteer project. A few individuals are paid by their employers to work on CPython. Those that do are typically paid to spend a percentage of their time on an open source project and the individuals have chosen core Python. While the Python Software Foundation's mission is to further the adoption and use of Python globally, a small percentage of the funds are spent on infrastructure to maintain CPython. In fact, the technical direction of CPython is largely separate from the PSF.
+
+_So of the four projects/communities you listed in the previous question, three are mostly comprised of volunteers, albeit with different levels of funding from donations, foundations, or employers.  Linux, whose environment you have problems with, is largely made up of for-profit contributors.  Do you think that volunteer and non-profit communities are more likely to be welcoming and healthier than for-profit-dominated communtiies?  Or do you think that's just the way these particular projects have turned out?_
+
+These are tough questions. I suspect that we could find positive and negative examples of communities in both non-profit/volunteer based projects as well as projects with funding from for-profit companies. 
+
+Largely, I believe a community's health and inclusion of others is driven by the leadership and core contributors of the project. If health and inclusion are both valued and acted upon genuinely, I believe that communities see positive results and repeat contributors (particularly contributor beyond just those writing software). 
+
+One very interesting aspect of communities that receive the bulk of their funding from for-profit companies is that repeat sponsorship by those companies becomes critical to sustain the project's baseline as well as growth. Non-profit/volunteer projects tend to grow more organically and rely upon their community for sustainability and viability. If the project has a yucky environment for contributors, interest wanes and volunteers leave. However, a for-profit project can greater afford to maintain a minimal viable community behavior standard since employees paid to work on the project are unlikely to leave as quickly as volunteers.
+
+One other element to think about is the impact that economics play when a project provides a product or code base that is a standard with no large or viable competitors. For example, the cloud infrastructure is largely based on the Linux operating system. In essence, if not in practice, Linux is a single source or a technology monopoly. The costs of trying to build a cloud infrastructure without Linux would be cost prohibitive. The dominance of Linux as an infrastructure OS lends itself to some interesting economic externalities.
+
+For example, each company is acting in their own corporate best interests to increase their shareholder value. As such, they wish to increase revenue while maintaining or reducing costs. Which begs the question what incentives does an individual company have to improve a community's working environment such as inclusion and healthy activities. Very few incentives since each company can look to the others to take action and maintain that their company is doing its best. It becomes easier and less expensive to print brochures espousing missions and a commitment to inclusion; while resourcing actions to truly improve the community fall by wayside.
+
+_I'm intrigued by this "minimal viable community behavior standard".  Many companies have HR departments and standards of behavior that employees need to meet.  Do you get the sense that the Linux community largely meets those standards, but fails to rise above them?  Or is there some behavior that's falling between the cracks?_
+
+Much like research done on economics and cybersecurity, I believe that the funding of a healthy and inclusive community faces similar economic factors. First, measurement of a healthy community, as security, is a difficult task with many variables. The difficulty of measurement creates a corporate decision of how much to invest in community behavior and sustainability. On the one hand the company does not want to underinvest and look as if they are flaunting popular expectations of behavior and HR (remembering that HR protects the corporation's interests not the employee's) practices. On the other hand, the companies definitely do not wish to overinvest in improving community behavior since overinvesting impacts the shareholders and the bottom line.
+
+Investing in community behavior and inclusion falls into a similar economic explanation that Gordon, Loeb, and Lucyshyn observed for security expenditures that it is actually economically sensible to invest only a portion of the total funds available for community until serious outcry actually happens. This is much like a deferment option in capital budgeting. Only resource upfront a small amount and wait and see if you need to take further action.
+
+Anderson, an expert on economics and cybersecurity, discusses how security investment is difficult to measure and the associated costs to society are particularly difficult to quantify. What are the actual opportunity costs to society when a higher behavior standard is not funded? Are resources being misallocated between technical projects and community sustainability? It's tough to measure.
+
+_As you said in your last answer, Linux is in some ways a monopoly.  You can't see the cost of a lower community standard because there's no real alternatives at all to compare it to.  Now I'm curious - are there any examples you know of, where a non-monopoly project has been forked specifically to improve community behavior standards?_
+
+While I'm not aware of a project that has been forked to improve community behavior standards, I do think that there is quality academic research that lends itself to providing a comparison for community behavior and inclusion which supports that a healthier, more diverse community has financial benefits, as well as the more difficult to measure social benefits. Academic research demonstrates that corporations with diverse boards of directors outperform homogenous boards. I also believe that research that has been done on open source communities does tend to support that the less tangible community factors do impact the adoption and sustainability of a project.
+
+As a technical monopoly, if you will, the Linux core team has little incentive to foster new ideas and developers. Maintaining the status quo becomes more important than the risk of opening the project to more ideas where it is harder to control the contributions and technical direction. Ultimately, until there is a viable alternative to the flavors of Linux, Linux will be viewed by companies that it must support Linux or risk being excluded from an important market. The companies that support Linux have little incentive to rock the "community" boat.
+
+_Let's refocus now on your personal experiences of open source contribution.  How has working as a paid contributor for Jupyter been different than your previous volunteer contributing?_
+
+Hmm... In many ways, it is largely the same. In some ways, working as a paid contributor is more stressful since I wear more hats than strictly development work on issues that I choose myself. While I'm encouraged to try new ideas and technologies on Jupyter, I feel a personal obligation to test the viability of an idea before really diving in. As a volunteer, I was only accountable to myself so I could freely experiment with new packages and nurture the creative side of software development. Happily Jupyter is used in education and I still see many creative ways to improve and enhance education with Jupyter. I feel that I should disclose that I have both financial and educational privilege so my personal burden as a volunteer was less than others.
+
+_Thanks for clarifying that, Carol.  Are you comfortable talking a bit more about that financial and educational privilege, and how it has affected your ability to volunteer?_
+
+Financial privilege is pretty straightforward. Family assets and early career success combined with investing along with modest needs for accumulation of things have allowed me to volunteer my time without the worry of meeting the essential needs of life such as food, shelter, and health.
+
+As for educational privilege, I have an MS in Management from MIT and a BSE in Electrical Engineering from Duke. As a woman in tech both of these universities give me a baseline of credibility that is sadly not necessarily given freely to other women or minorities. My time at MIT years ago included a strong emphasis of giving back to the world and I'd like to think that I am doing that in some small way.
+
+_How do decisions get made in Jupyter?  You mentioned feeling accountable - how does that accountability work?_
+
+Decisions are largely made on the mailing list and within GitHub issues through discussion and working toward the best approach. Like many projects, there are far more tasks and needs than we have contributors to fill. My feeling of accountability is largely my own personal integrity and desire to work on high value tasks which will benefit the community or the project. I also feel that I have a responsibility to do my best to fulfill the mission of the grants that the foundations have funded since doing so will improve scientific collaboration.
+
+_How does the community decide which work gets done?  Is it largely an individualized process depending on personal judgments?_
+
+We have been trying to do a better job of curating issues for contributors to work on. Our core team prides itself on being accessible and interested in helping our users succeed. We encourage users to ask about a proposed feature before doing too much work on it. As a project that has many repos and is evolving quickly, we recognize that creating a collaborative community is important. So is supporting the research efforts of other projects that are tangential or related to Jupyter.
+
+_Are there any particular areas of Jupyter that you feel are under-resourced?_
+
+Like many open source projects, sustaining infrastructure, maintenance engineering, community management, and documentation are challenging to resource while at the same time working on new features and projects for the future. We're working on automating some things and trying to make it easier for contributors to assist with documentation and community outreach.
+
+_Are there any resources that you've used, or that you've created for others to use, that help with those under-resourced areas?_
+
+Documentation, documentation, documentation, Read the Docs, Write the Docs. Triaging issues also helps contributors. Overall, it's the many little things that I do during the day that have the greatest impact: answering questions, adding small changes to docs based on user questions, documenting the contribution process including installing a dev environment, working with user groups. Not a huge surprise to you given our experience with OpenHatch and helping communities be more inviting and welcoming. 
+
+_Thank you for your time and your thoughts, Carol!_
