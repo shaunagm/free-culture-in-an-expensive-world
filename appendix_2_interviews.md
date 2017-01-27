@@ -2,7 +2,7 @@
 
 These informal interviews are meant to cover a broad range of organizational and individual experiences and funding/resource models.  A list of potential interviewees and discussions about topics and experiences to explore can be found [here](https://github.com/shaunagm/free-culture-in-an-expensive-world/issues/2).
 
-#### Interview with Ari Pollack, 6/7/2016; topics covered: Debian
+#### Interview with Ari Pollak, 6/7/2016; topics covered: Debian
 
 _Hi Ari!  Thanks for agreeing to this interview.  Someone shared with me [this graph of Debian's structure](http://kevix.org/DEBIAN/newdebian2.png).  Obviously Debian is a long-running project with a lot of complexity but could you give me a rough overview of how the project functions?  How do decisions get made?_
 
